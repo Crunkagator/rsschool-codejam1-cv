@@ -72,10 +72,33 @@ main {
 
 .skills-content-container{
   display: grid;
-  grid-template: 1fr 1fr 1fr / 1fr 1fr;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
   gap: 3px 3px;
   width: 100%;
   height: 100%;
+}
+
+.skill-1,
+.skill-2,
+.skill-3,
+.skill-4,
+.skill-5,
+.skill-6,
+.skill-7,
+.skill-8,
+.skill-9 {
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-pic {
+  margin-inline-end: 5px;
+}
+
+i {
+  margin-inline-end: 5px;
 }
 
 .skill-1 {
@@ -89,23 +112,38 @@ main {
 }
 
 .skill-3 {
-  grid-area: 2 / 1 / span 1 / span 1;
+  grid-area: 1 / 3 / span 1 / span 1;
   background-color: springgreen;
 }
 
 .skill-4 {
-  grid-area: 2 / 2 / span 1 / span 1;
+  grid-area: 2 / 1 / span 1 / span 1;
   background-color: royalblue;
 }
 
 .skill-5 {
-  grid-area: 3 / 1 / span 1 / span 1;
+  grid-area: 2 / 2 / span 1 / span 1;
   background-color: honeydew;
 }
 
 .skill-6 {
-  grid-area: 3 / 2 / span 1 / span 1;
+  grid-area: 2 / 3 / span 1 / span 1;
   background-color: teal
+}
+
+.skill-7 {
+  grid-area: 3 / 1 / span 1 / span 1;
+  background-color: cyan;
+}
+
+.skill-8 {
+  grid-area: 3 / 2 / span 1 / span 1;
+  background-color: hotpink;
+}
+
+.skill-9 {
+  grid-area: 3 / 3 / span 1 / span 1;
+  background-color: ghostwhite;
 }
 
 .profile-pic{
