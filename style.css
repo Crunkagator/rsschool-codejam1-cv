@@ -1,0 +1,151 @@
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 1024px;
+  height: auto;
+  border: 2px solid rgb(109, 212, 25);
+  background-color: cadetblue;
+}
+
+.top-container,
+.intro-container,
+.skills-container {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.topblock,
+.intro-block,
+.skills-block {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.profile,
+.intro,
+.skills{
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: 300px;
+}
+
+.profile-content,
+.intro-content,
+.skills-content {
+  width: 60%;
+  height: 300px;
+}
+
+.inner-profile {
+  display: flex;
+  align-items: center;
+}
+
+.skills-content-container{
+  display: block;
+  height: 100px;
+  width: 100%;
+}
+
+.flexer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-1,
+.skill-2,
+.skill-3,
+.skill-4,
+.skill-5,
+.skill-6 {
+  width: 50%;
+  height: 100px;
+}
+
+.skill-1,
+.skill-4,
+.skill-5 {
+  background-color: blue;
+}
+
+.skill-2,
+.skill-3,
+.skill-6 {
+  background-color: blueviolet;
+}
+
+.profile-pic{
+  border-radius: 50%;
+}
+
+.profile{
+  background-color: whitesmoke;
+}
+
+.profile-content {
+  display: block;
+  background-color: antiquewhite;
+}
+
+.intro {
+  background-color: seashell;
+}
+
+.intro-content {
+  background-color: lightgrey;
+}
+
+.skills {
+  background-color: snow;
+}
+
+.skills-content {
+  background-color: thistle;
+}
+
+div.inner-profile-content {
+  height: 180px;
+  display: flex;
+  align-items: center;
+}
+
+div.contacts {
+  margin: 0px 20px;
+}
+
+.profile-content h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0px 20px;
+  display: block;
+  width: 100%;
+}
+
+.first-name {
+  font-size: 3.2em;
+  color: orange;
+}
+
+.last-name {
+  font-size: 4em;
+  color: black;
+}
+
+.fa:hover {
+  color: rgb(27, 73, 158);
+}
+
+footer {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: snow;
+}
+
+body {
+  background-color: #31363b;
+}
