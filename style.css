@@ -11,7 +11,8 @@ main {
 .top-container,
 .intro-container,
 .skills-container,
-.code-container {
+.code-container,
+.education-container {
   display: block;
   width: 100%;
   height: 300px;
@@ -20,7 +21,8 @@ main {
 .topblock,
 .skills-block,
 .intro-block,
-.code-block {
+.code-block,
+.education-block {
   display: flex;
   justify-content: space-between;
   height: 300px;
@@ -28,7 +30,8 @@ main {
 
 .intro,
 .skills,
-.code {
+.code,
+.education {
   text-align: end;
   width: 40%;
   height: 300px;
@@ -44,7 +47,8 @@ main {
 .profile-content,
 .intro-content,
 .skills-content,
-.code-content {
+.code-content,
+.education-content {
   width: 60%;
   height: 300px;
 }
@@ -163,6 +167,11 @@ i {
   border-radius: 50%;
 }
 
+.content h1 {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
 .profile{
   background-color: whitesmoke;
 }
@@ -194,6 +203,14 @@ i {
 
 .code-content {
   background-color: rgb(233, 233, 233);
+}
+
+.education {
+  background-color: aliceblue
+}
+
+.education-content {
+  background-color: GhostWhite;
 }
 
 div.inner-profile-content {
