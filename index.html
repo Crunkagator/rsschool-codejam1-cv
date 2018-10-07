@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>EPAM Resume</title>
@@ -10,68 +10,65 @@
   </head>
   <body>
     <main>
-      <section class="top-container">
+      <div class="top-container">
         <div class="topblock">
           <div class="profile">
             <div class="inner-profile">
-              <img class="profile-pic" src="./public/profile.jpg" width="250px" height="250px" alt="profile picture">
+              <img class="profile-pic" src="./public/profile.jpg" width="250" height="250" alt="profile picture">
             </div>
           </div>
           <div class="profile-content">
             <div class="inner-profile-content">
-              <div>
+              <div class="content">
                 <h1 class="first-name">Vladislav</h1>
                 <h1 class="last-name">Nestiuk</h1>
+                <span>Junior Front-End developer</span>
               </div>
             </div>
             <div class="contacts">
-              <div>Junior Front-End developer
-                <div><span class="fa fa-github"></span>github.com/Crunkagator</div>
-                <div><span class="fa fa-envelope"></span>briantheblack@gmail.com</div>
-                <div><span class="fa fa-phone"></span>+5245454511</div>
-                <div><span class="fa fa-telegram"></span>tg.me/sampletext</div>
-                <div><span class="fa fa-vk"></span>vk.com/blights_out</div>
-              </div>
+                <div><a href="https://github.com/Crunkagator" target="_blank"><span class="fa fa-github"></span></a></div>
+                <div onclick="alert('briantheblack@gmail.com')"><span class="fa fa-envelope"></span></div>
+                <div onclick="alert('+375291503633')"><span class="fa fa-phone"></span></div>
+                <div><a href="https://t.me/Crunkagator" target="_blank"><span class="fa fa-telegram"></span></a></div>
+                <div><a href="https://vk.com/blights_out" target="_blank"><span class="fa fa-vk"></span></a></div>
             </div>
           </div>
         </div>
-      </section>
-      <section class="intro-container">
+      </div>
+      <div class="intro-container">
         <div class="intro-block">
-          <div class="intro">
-            intro
-          </div>
-          <div class="intro-content">
-            <div><div class="fa fa-address-book"></div> Well met</div>
-            <div>Fin.</div>
-          </div>
+            <div class="intro">
+              <div class="right">
+                  <h1>About<h1>
+              </div>
+            </div>
+            <div class="intro-content">
+              <section class="content">
+                Name's Vlad. I am 20 years old self-taught web developer.
+                I possess some essential basics of HTML5, CSS & JavaScript,
+                a basics of SQL and No-SQL databases, and I'm eager to learn
+                in order to extend my knowledge even further and to become valuable and
+                skillful employee.
+              </section>
+            </div>
         </div>
-      </section>
-      <section class="skills-container">
+      </div>
+      <div class="skills-container">
         <div class="skills-block">
           <div class="skills">Skills</div>
-            <div class="skills-content">
-              <div class="skills-content-container">
-                <div class="flexer">
-                  <div class="skill-1"></div>
-                  <div class="skill-2"></div>
-                </div>
-              </div>
-              <div class="skills-content-container">
-                <div class="flexer">
-                  <div class="skill-3"></div>
-                  <div class="skill-4"></div>
-                </div>
-              </div>
-              <div class="skills-content-container">
-                <div class="flexer">
-                  <div class="skill-5"></div>
-                  <div class="skill-6"></div>
+          <div class="skills-content">
+            <div class="skills-content-container">
+                <div class="skill-1"></div>
+                <div class="skill-2"></div>
+                <div class="skill-3"></div>
+                <div class="skill-4"></div>
+                <div class="skill-5"></div>
+                <div class="skill-6"></div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </main>
     <footer>Made with no purpose by me</footer>
   </body>

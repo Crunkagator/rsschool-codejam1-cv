@@ -2,7 +2,7 @@ main {
   display: block;
   margin: 0 auto;
   max-width: 1024px;
-  width: 1024px;
+  min-width: 800px;
   height: auto;
   border: 2px solid rgb(109, 212, 25);
   background-color: cadetblue;
@@ -17,16 +17,21 @@ main {
 }
 
 .topblock,
-.intro-block,
-.skills-block {
+.skills-block,
+.intro-block {
   display: flex;
   justify-content: space-between;
   height: 300px;
 }
 
-.profile,
 .intro,
-.skills{
+.skills {
+  text-align: end;
+  width: 40%;
+  height: 300px;
+}
+
+.profile {
   display: flex;
   justify-content: center;
   width: 40%;
@@ -45,37 +50,62 @@ main {
   align-items: center;
 }
 
+.right {
+  margin-inline-end: 10px;
+  margin-block-start: 10px;
+}
+
+.right h1 {
+  color: orangered;
+  font-weight: 900;
+  font-size: 2.5em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.content {
+  margin-block-start: 20px;
+  margin-block-end: 20px;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+}
+
 .skills-content-container{
-  display: block;
-  height: 100px;
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr;
+  gap: 3px 3px;
   width: 100%;
+  height: 100%;
 }
 
-.flexer{
-  display: flex;
-  justify-content: space-between;
+.skill-1 {
+  grid-area: 1 / 1 / span 1 / span 1;
+  background-color: maroon;
 }
 
-.skill-1,
-.skill-2,
-.skill-3,
-.skill-4,
-.skill-5,
-.skill-6 {
-  width: 50%;
-  height: 100px;
+.skill-2 {
+  grid-area: 1 / 2 / span 1 / span 1;
+  background-color: yellowgreen;
 }
 
-.skill-1,
-.skill-4,
+.skill-3 {
+  grid-area: 2 / 1 / span 1 / span 1;
+  background-color: springgreen;
+}
+
+.skill-4 {
+  grid-area: 2 / 2 / span 1 / span 1;
+  background-color: royalblue;
+}
+
 .skill-5 {
-  background-color: blue;
+  grid-area: 3 / 1 / span 1 / span 1;
+  background-color: honeydew;
 }
 
-.skill-2,
-.skill-3,
 .skill-6 {
-  background-color: blueviolet;
+  grid-area: 3 / 2 / span 1 / span 1;
+  background-color: teal
 }
 
 .profile-pic{
@@ -114,28 +144,35 @@ div.inner-profile-content {
 }
 
 div.contacts {
-  margin: 0px 20px;
+  display: flex;
+  margin: 0px 40px;
+  justify-content: space-between;
+  font-size: 4em;
 }
 
 .profile-content h1 {
   margin-block-start: 0;
   margin-block-end: 0;
-  margin: 0px 20px;
+  line-height: 0.8em;
   display: block;
   width: 100%;
 }
 
 .first-name {
-  font-size: 3.2em;
+  font-size: 4.2em;
   color: orange;
 }
 
 .last-name {
-  font-size: 4em;
+  font-size: 5em;
   color: black;
 }
 
-.fa:hover {
+a:link, a:visited {
+  color: black;
+}
+
+.fa:hover, a:hover {
   color: rgb(27, 73, 158);
 }
 
