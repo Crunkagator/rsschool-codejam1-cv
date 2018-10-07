@@ -4,8 +4,6 @@ main {
   max-width: 1024px;
   min-width: 800px;
   height: auto;
-  /* border: 2px solid rgb(109, 212, 25);
-  background-color: cadetblue; */
 }
 
 .top-container,
@@ -59,12 +57,12 @@ main {
 }
 
 .right {
-  margin-inline-end: 10px;
+  margin-inline-end: 20px;
   margin-block-start: 10px;
 }
 
 .right h1 {
-  color: orangered;
+  color: rgb(241, 107, 58);
   font-weight: 900;
   font-size: 2.5em;
   margin-block-start: 0;
@@ -260,4 +258,5 @@ footer {
 
 body {
   background-color: #31363b;
+  font-family: 'Ubuntu', sans-serif;
 }
